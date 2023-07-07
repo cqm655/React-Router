@@ -6,7 +6,7 @@ export default function ProductDetailPage() {
   return (
     <>
       <h1>Product Details</h1>
-      <p>{params.productId}</p>
+      <p>{params.productId}</p> {/*here we get the params from url, from app page*/}
     </>
   );
 }
