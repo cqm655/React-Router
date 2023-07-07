@@ -8,7 +8,7 @@ function HomePage() {
   //   }
   return (
     <>
-      <h1>Main PAge!</h1>
+      <h1>Main Page!</h1>
       <Link to={"/products"}>go to products</Link>
       {/* <button onClick={navigationHandler}>Navigate to Products</button> */}
     </>
